@@ -1,6 +1,22 @@
 {
-    "[html]": {
-        "editor.tabSize": 4
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css",
+      "savePathReplacementPairs": null,
+      "generateMap": true
     },
-    "editor.detectIndentation": false
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/assets/css",
+      "savePathReplacementPairs": null,
+      "generateMap": true
+    }
+  ],
+  "[html]": {
+    "editor.tabSize": 4
+  },
+  "editor.detectIndentation": false
 }

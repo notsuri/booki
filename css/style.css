@@ -249,6 +249,7 @@ a {
   align-items: center;
   justify-content: center;
   color: black;
+  flex: 0 0 auto;
 }
 
 .areasearch {
@@ -401,5 +402,28 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
-  /* ... */
+  .head1 {
+    flex-direction: column;
+  }
+
+  .logohead {
+    object-fit: contain;
+  }
+  .navmenu {
+    text-align: center;
+  }
+
+  .head1 .navlink {
+    border-top: none;
+    border-bottom: 2px solid transparent;
+    flex: 1;
+    padding-top: 0;
+    padding-bottom: 14px;
+  }
+  .hebergements-and-populaires {
+    flex-direction: column-reverse;
+  }
+  .populaires-cards {
+    flex-direction: column;
+  }
 }
